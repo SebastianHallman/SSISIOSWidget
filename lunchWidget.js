@@ -4,7 +4,7 @@ var day = new Date()
 day = day.getDay()
 day--
 
-if (day>=4){
+if (day>=4 || day<0){
   day = 4
 }
 let url = "https://eatery.nero2k.com"
