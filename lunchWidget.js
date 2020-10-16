@@ -8,7 +8,7 @@ if (day>=4 || day<0){
   day = 4
 }
 let url = "https://eatery.nero2k.com"
-let js = "document.getElementsByClassName('media-body')[" + day + "].innerHTML;"
+let js = "document.getElementsByClassName('leading-6')[" + day + "].innerHTML;"
 
 let lunchFont = new Font("ArialMT", 12)
 
